@@ -1,0 +1,12 @@
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJvdGFiZWtAZ21haWwuY29tIiwiZXhwIjoxNjcwNjMxNjU1LCJpYXQiOjE2NzA1OTU2NTUsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX0FETUlOIn1dfQ.T5t147o27XGlWZ0uvJTS777Gw8xVv8ymVJn91QKfBew
+
+
+{
+  "bookname": "Book33",
+  "author": "Author4",
+  "price":222
+}
